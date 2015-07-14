@@ -204,14 +204,24 @@ input[type='text'] {
 }
 
 @media (max-width: 414px) {
+  #info h1{
+    font-size: 7vh;
+  }
   #fourth h2 {
     margin-bottom: 0;
+    font-size: 4.5vh;
+  }
+  #fifth h2 {
+    font-size: 4.5vh;
   }
   #fifth h3 {
     margin-bottom: 0;
   }
   #sixth h2 {
     margin-bottom: 0;
+  }
+  #info .button-container {
+    bottom: 10vh;
   }
 }
 
